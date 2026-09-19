@@ -100,7 +100,7 @@ section input {
   
   #container {
     width: 800px;
-    height: 350px;
+    height: 300px;
     transition: 0.5s
   }
 
@@ -112,8 +112,6 @@ section input {
 
 #itens {
   float: left;
-
-  
 }
 
 #entrar, #esqueci {
@@ -122,8 +120,14 @@ section input {
 
 }
 
+/*TELAS MAIORES AINDA*/
+
 @media screen and (min-width: 992px) {
   #container {
     width: 900px;
   }
+
 }
+
+
+
